@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
+	<xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
   <head>
     <meta charset="UTF-8">
     <title>BlueFood</title>
-    <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bf_estiloSistema.css}"/>
   </head>
   <body>
     <header>
@@ -12,7 +15,7 @@
       <div id="divLogotipoSistema">
         <span id="spanAuxiliarDeAlinhamentoVertical"></span>
         <a href="">
-          <img src="images/DeliciusFood.png" id="imgLogotipoSistema">
+          <img th:src="@{images/DeliciusFood.png}" id="imgLogotipoSistema">
         </a>
       </div>
     </header>
@@ -21,7 +24,7 @@
 	
     
     <div>
-			<img src="images/iconUsuario.png" id="imgIconeUsuario">
+			<img th:src="@{images/iconUsuario.png}" id="imgIconeUsuario">
 			<h1>Autenticação</h1>
 			<form method="post" action="">
 				<fieldset>

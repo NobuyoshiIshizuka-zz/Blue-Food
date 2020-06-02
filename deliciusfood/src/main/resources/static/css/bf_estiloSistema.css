@@ -1,0 +1,253 @@
+*
+{
+    font-family: "Verdana";
+}
+
+body
+{
+    text-align: center;
+    margin: 0px;
+}
+
+a
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+div#divLogotipoSistema
+{
+    background-color: #C71520;
+    height: 70px;
+}
+
+span#spanAuxiliarDeAlinhamentoVertical
+{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img#imgLogotipoSistema
+{
+    height: 60%;
+    vertical-align: middle;
+}
+
+img#imgIconeUsuario
+{
+    width: 100px;
+}
+
+h1
+{
+    color: #C71520;
+    background-color: #eeeeee;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 10px solid #C71520;
+    border-right: 10px solid #C71520;
+    border-top: 2px solid #C71520;
+    border-bottom: 2px solid #C71520;
+    border-radius: 30px;
+}
+
+div#mensagemDeErro
+{
+    background-color: #ff2828;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+div#divUsuarioLogado
+{
+    background-color: #D22630;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+img#imgIconeCarrinho
+{
+    height: 50px;
+}
+
+fieldset
+{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+}
+
+input,
+textarea,
+select
+{
+    border: 2px solid #C71520;
+    height: 35px;
+    margin-bottom: 6px;
+}
+
+textarea
+{
+    width: 300px;
+    height: 100px;
+}
+
+input[type=text],
+input[type=password],
+select
+{
+    font-size: 16px;
+    width: 140px;
+    padding-left: 8px;
+}
+
+input[type=button],
+input[type=submit]
+{
+    background-color: #D22630;
+    border-bottom: 3px solid #000000;
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding:5px 8px;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover
+{
+background-color: rgb(138, 16, 22);
+border-color: #000000;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    font-size: 14px;
+    border-spacing: 1px;
+}
+
+tr:nth-child(even)
+{
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #ffffff;
+}
+
+th
+{
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+td
+{
+    padding: 3px;
+}
+
+div#divCategoriasComidaOpcao
+{
+    background-color: #ffffff;
+    height: 130px;
+    float: left;
+}
+
+div#divCategoriasComidaGeral
+{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+img#imgCategoriaComida
+{
+height: 50%;
+}
+
+fieldset#fieldsetFiltros
+{
+    border-width: 3px;
+}
+
+input#inputSelecionado
+{
+    font-weight: bold;
+    text-transform: auto;
+}
+
+img#imgRestauranteOpcao
+{
+  height: 130px;
+}
+
+span#restauranteOpcaoTitulo
+{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+div#divRestaurantesOpcao
+{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#mensagemDeSucesso
+{
+    background-color: #0baf00;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.inputError
+{
+    border: 2px solid #ff2828;
+}
+
+.pedidoCliente
+{
+    width: 100%;
+}
+
+.configuracoesBtn
+{
+    width: 300px;
+}
+
+.pedidosBtn
+{
+    width: 200px;
+}
+
+
+
